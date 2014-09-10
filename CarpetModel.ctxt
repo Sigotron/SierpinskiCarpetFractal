@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=initialLevel\ x\ y\ w
+comment0.target=CarpetModel(int,\ int,\ int,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ CarpetModel\r\n\ @param\ initialLevel\ represents\ starting\ level\ of\ Sierpinski\ Carpet\r\n\ @param\ x\ represents\ x\ coordinate\ of\ upper\ left\ corner\ of\ Sierpinski\ Carpet\ model\r\n\ @param\ y\ represents\ y\ coordinate\ of\ upper\ left\ corner\ of\ Sierpinski\ Carpet\ model\r\n\ @param\ w\ represents\ width\ and\ height\ of\ Sierpinski\ Carpet\ model\r\n
+comment1.params=c
+comment1.target=void\ addListener(CarpetListener)
+comment1.text=\r\n\ allows\ model\ to\ keep\ track\ of\ views\ that\ need\ to\ query\ CarpetModel\r\n\ @param\ c\ represents\ CarpetListener\ to\ be\ added\ to\ ArrayList\ listeners\r\n
+comment2.params=change
+comment2.target=void\ changeLevel(int)
+comment2.text=\r\n\ changes\ level\ of\ Sierpinski\ Carpet\ model\r\n\ @param\ change\ represents\ number\ of\ levels\ to\ change\r\n
+comment3.params=
+comment3.target=int\ getLevel()
+comment3.text=\r\n\ returns\ level\ of\ Sierpinski\ Carpet\ model\r\n\ @return\ level\ of\ Sierpinski\ Carpet\ model\ as\ int\r\n
+comment4.params=g
+comment4.target=void\ drawCarpet(java.awt.Graphics)
+comment4.text=\r\n\ public\ method\ for\ recursive\ method\ that\ draws\ Siepinski\ Carpet\r\n\ @param\ g\ Graphic\ object\ to\ draw\ Sierpinski\ Carpet\ on\r\n
+comment5.params=level\ x\ y\ w\ g
+comment5.target=void\ drawCarpets(int,\ int,\ int,\ int,\ java.awt.Graphics)
+comment5.text=\r\n\ private\ recursive\ method\ that\ draws\ Sierpinski\ Carpet\r\n\ @param\ level\ represents\ number\ of\ levels\ of\ Sierpinski\ Carpet\r\n\ @param\ x\ represents\ upper\ left\ x-coordinate\ of\ Sierpinski\ Carpet\r\n\ @param\ y\ represents\ upper\ left\ y-coordinate\ of\ Sierpinski\ Carpet\r\n\ @param\ w\ represents\ width\ and\ height\ of\ Sierpinski\ Carpet\r\n\ @param\ g\ Graphic\ object\ to\ draw\ Sierpinski\ Carpet\ on\r\n
+comment6.params=
+comment6.target=void\ notifyAllListeners()
+comment6.text=\r\n\ notifys\ all\ listeners/views\ that\ the\ model\ has\ changed\ so\ they\ can\r\n\ react\ appropriatly\r\n
+numComments=7

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=m\ panelDimension
+comment0.target=GraphicView(CarpetModel,\ int)
+comment0.text=\r\n\ Constuctor\ for\ objects\ of\ class\ GraphicView\r\n\ @param\ m\ represents\ CarpetModel\ that\ will\ be\ queried\r\n\ @param\ panelDimension\ represents\ prefered\ width\ and\ height\ of\ JPanel\r\n
+comment1.params=g
+comment1.target=void\ paintComponent(java.awt.Graphics)
+comment1.text=\r\n\ Overrides\ paintComponent\ and\ draws\ Sierpinski\ Carpet\ represented\r\n\ in\ CarpetView\ model\r\n\ @param\ g\ Graphic\ object\ to\ be\ drawn\ on\r\n
+comment2.params=
+comment2.target=void\ levelChanged()
+comment2.text=\r\n\ repaints\ Sierpinski\ Carpet\ image\ when\ CarpetModel\ level\ changes\r\n
+numComments=3

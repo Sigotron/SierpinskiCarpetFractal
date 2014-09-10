@@ -1,0 +1,41 @@
+import java.awt.*;
+import javax.swing.*;
+/**
+ * GraphicView querys model and sets up JPanel that Sierpinski Carpet
+ * will be drawn on
+ * 
+ * @author Joel Sigo 
+ * @version 02/05/2013
+ */
+public class GraphicView extends JPanel implements CarpetListener {
+    // instance variables
+    private CarpetModel model;
+    
+    /**
+     * Constuctor for objects of class GraphicView
+     * @param m represents CarpetModel that will be queried
+     * @param panelDimension represents prefered width and height of JPanel
+     */
+    public GraphicView(CarpetModel m, int panelDimension) {
+        model = m;
+        model.addListener(this);
+        this.setPreferredSize(new Dimension(panelDimension,panelDimension));
+    }
+    
+    /**
+     * Overrides paintComponent and draws Sierpinski Carpet represented
+     * in CarpetView model
+     * @param g Graphic object to be drawn on
+     */
+    public void paintComponent(Graphics g) {
+        super.paintComponent(g);
+        model.drawCarpet(g);
+    }
+    
+    /**
+     * repaints Sierpinski Carpet image when CarpetModel level changes
+     */
+    public void levelChanged() {
+        repaint();
+    }
+}

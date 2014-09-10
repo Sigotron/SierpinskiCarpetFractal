@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=m
+comment0.target=CarpetController(CarpetModel)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ CarpetController.\ Sets\ up\ buttons\r\n\ and\ overall\ layout\ of\ JFrame.\r\n\ @param\ m\ represents\ CarpetModel\ \r\n
+comment1.params=e
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment1.text=\r\n\ defines\ action\ to\ be\ performed\ when\ user\ clicks\ on\ a\ button\r\n\ @param\ e\ represents\ ActionEvent\ ie\ a\ button\ press\r\n
+numComments=2
